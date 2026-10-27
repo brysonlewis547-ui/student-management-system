@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+    <title>Login - Student Management System</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <section id="login">
+        <h1>Student Management System</h1>
+        <p class="note">Sign in to record attendance and academic performance.</p>
+
+        <form id="loginForm">
+            <label for="u">Username</label>
+            <input id="u" autocomplete="username">
+
+            <label for="p">Password</label>
+            <input id="p" type="password" autocomplete="current-password">
+
+            <div class="err" id="lerr" role="alert"></div>
+            <button class="btn" type="submit" style="width:100%">Sign in</button>
+        </form>
+
+        <p class="note">password <b>admin</b> / Admin@123 or <b>teacher</b> / Teach@123</p>
+    </section>
+
+    <script src="data.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
